@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class ='container'>
+    <canvas id = "begin" class = 'begin' width="500px" height="400px">your browser can not surpport canvas</canvas>
+    <div id = 'choose' class="content">
+        <span id = "chDealer">Dealer</span>
+        <span id = "chPlayer">Player</span>
+    </div>
+    <div id = 'play'>
+        <div id = 'head'>
+            <p class = 'potPart'>
+                Pot:$<span id = 'pot'></span>
+            </p>
+            <p class = 'betPart'>
+                Bet:$<span id = 'bet'>0</span>
+            </p>
+        </div>
+        <div class = 'content'>
+            <div id = 'playStart'>
+                <div id = 'dealer'>
+                    Dealer:<span id = 'dealerSco'></span>
+                    <div class = 'showPuke'>
+                    </div>
+                </div>
+                <div id = 'player'>
+                   Player:<span id = 'playerSco'></span>
+                    <div class = 'showPuke'>
+                    </div>
+                    <!-- if it's player show coin-->
+                </div>
+                <ul class = 'coin'>
+                    <li>1</li>
+                    <li>5</li>
+                    <li>10</li>
+                    <li>100</li>
+                    <li>clear</li>
+                </ul>
+
+                <div class = 'buttonStyle' id = 'start'>Start</div>
+                <div class = 'buttonStyle' id = 'hit'>Hit</div>
+                <div class = 'buttonStyle' id = 'stand'>Stand</div>
+                <div class = 'buttonStyle' id = 'insure'>Insurence</div>
+                <div class = 'buttonStyle' id = 'skip'>Skip</div>
+                <div class = 'buttonStyle' id = 'deal'>deal</div>
+                <div class = 'buttonStyle' id = 'replay'>replay</div>
+            </div>
+
+        </div>
+    </div>
+    <div id="music"></div>
+    <audio id="GameMusic" autoplay="autoplay">
+        <source src = 'audio/bgmusic.mp3' type="audio/mpeg" >
+        Audio player not available
+    </audio>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src = 'js/play.js'></script>
+</body>
+</html>
