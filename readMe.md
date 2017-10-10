@@ -1,41 +1,40 @@
-1.ÇëÏÈ°²×°node,ÔÚcmdÖÐ£¬ÔÚÎÄ¼þ¸ùÄ¿Â¼ÏÂÊäÈëÃüÁî£º
+1.è¯·å…ˆå®‰è£…node,åœ¨cmdä¸­ï¼Œåœ¨æ–‡ä»¶æ ¹ç›®å½•ä¸‹è¾“å…¥å‘½ä»¤ï¼š
 npm install
-ÓÃÓÚ°²×°ÒÀÀµÏî
+ç”¨äºŽå®‰è£…ä¾èµ–é¡¹
 
-ÔÚÃüÁîÐÐÖÐ ½øÈë´¢´æµÄ¸ùÄ¿Â¼£¬ÊäÈënode server.js,ÆôÓÃ·þÎñÆ÷£¬
-ÔÚpublic/player.jsÖÐÇëÌîÐ´±¾»úIpµØÖ·£¬¶Ë¿ÚºÅ3000£¬
-ÔÙÔÚä¯ÀÀÆ÷ÖÐ·ÃÎÊ¡£
+åœ¨å‘½ä»¤è¡Œä¸­ è¿›å…¥å‚¨å­˜çš„æ ¹ç›®å½•ï¼Œè¾“å…¥node server.js,å¯ç”¨æœåŠ¡å™¨ï¼Œ
+åœ¨public/player.jsä¸­è¯·å¡«å†™æœ¬æœºIpåœ°å€ï¼Œç«¯å£å·3000ï¼Œ
+å†åœ¨æµè§ˆå™¨ä¸­è®¿é—®ã€‚
 
 
-2.ËùÓÃ¼¼Êõ
-    a.ÓÃhtml5¡¢css3ÊµÏÖÒ³Ãæ¾²Ì¬ÎÄ¼þ×ÊÔ´¡£
-    b.Ê¹ÓÃÔ­ÉúJavaScript´¦Àí¿Í»§¶ËÐÅÏ¢
-    c.socket.io+node.jsÊµÏÖÊµÊ±ÐÅÏ¢½»»¥£¨socket.io·â×°ÁËflashµÈ´¦ÀíÊµÊ±Í¨ÐÅµÄ·½·¨£¬½â¾öÁËwebsocktsÔÚÆäËûä¯ÀÀÆ÷ÉÏ²»ÄÜÊ¹ÓÃµÄÇé¿ö£©
+2.æ‰€ç”¨æŠ€æœ¯
+    a.ç”¨html5ã€css3å®žçŽ°é¡µé¢é™æ€æ–‡ä»¶èµ„æºã€‚
+    b.ä½¿ç”¨åŽŸç”ŸJavaScriptå¤„ç†å®¢æˆ·ç«¯ä¿¡æ¯
+    c.socket.io+node.jså®žçŽ°å®žæ—¶ä¿¡æ¯äº¤äº’ï¼ˆsocket.ioå°è£…äº†flashç­‰å¤„ç†å®žæ—¶é€šä¿¡çš„æ–¹æ³•ï¼Œè§£å†³äº†websocktsåœ¨å…¶ä»–æµè§ˆå™¨ä¸Šä¸èƒ½ä½¿ç”¨çš„æƒ…å†µï¼‰
 
-3.ÓÎÏ·Éè¼ÆË¼Â·
+3.æ¸¸æˆè®¾è®¡æ€è·¯
 
-    ¿Í»§¶Ë ´¦Àí
+    å®¢æˆ·ç«¯ å¤„ç†
 
-    ÓÎÏ·½çÃæ
-    playÓÎÏ·£¬
-    Ñ¡Ôñ½ÇÉ«£¨player|dealer£©
+    æ¸¸æˆç•Œé¢
+    playæ¸¸æˆï¼Œ
+    é€‰æ‹©è§’è‰²ï¼ˆplayer|dealerï¼‰
    
-    ÓÎÏ·¿ªÊ¼
+    æ¸¸æˆå¼€å§‹
 
-    Gamer:ÓÎÏ·ÕßµÄ»ù±¾¹²ÓÐÊôÐÔ¡¢·½·¨
-    dealer:¿ÉÒÔhit,stand,Îª×¯¼Ò·¢ÅÆ
-    player:¿ÉÒÔhit,stand,Èç¹ûdealer µÄÃ÷ÅÆÊÇA ,player ¿ÉÂò±£ÏÕ£¬Èç¹û²»Âò£¬ÔòÍË»Øµ½hit,stand¡£
+    Gamer:æ¸¸æˆè€…çš„åŸºæœ¬å…±æœ‰å±žæ€§ã€æ–¹æ³•
+    dealer:å¯ä»¥hit,stand,ä¸ºåº„å®¶å‘ç‰Œ
+    player:å¯ä»¥hit,stand,å¦‚æžœdealer çš„æ˜Žç‰Œæ˜¯A ,player å¯ä¹°ä¿é™©ï¼Œå¦‚æžœä¸ä¹°ï¼Œåˆ™é€€å›žåˆ°hit,standã€‚
     
-    ¼ÆËã¶Ä½ð
+    è®¡ç®—èµŒé‡‘
 
-    server¶Ë ´¦Àí
+    serverç«¯ å¤„ç†
 
-    ÅÐ¶ÏÓÎÏ·µÄÊäÓ®
-    ´«µÝÐÅÏ¢¡¢Ë«·½µÄÅÆ¡¢¶Ä½ð¡£
+    åˆ¤æ–­æ¸¸æˆçš„è¾“èµ¢
+    ä¼ é€’ä¿¡æ¯ã€åŒæ–¹çš„ç‰Œã€èµŒé‡‘ã€‚
 
 
-4.Èç¹ûÓÐÎÊÌâÇëÁªÏµÎÒ£¬ÂÞ¾ê 18602338348  qq:1044110682 Î¢ÐÅ£ºnjlclj123456
-
+4.å¦‚æžœæœ‰é—®é¢˜è¯·è”ç³»æˆ‘ï¼Œ qq:1044110682
 
 
 
